@@ -190,7 +190,7 @@ angular.module('raw.controllers', [])
 
 
     $scope.samples = [
-      { title : 'Galaxy dataset', type: 'Matrix (narrow)', url:'/srv/shiny-server/data/inputdata.txt'}
+      { title : 'Galaxy dataset', type: 'Matrix (narrow)', url:'data/inputdata.txt'}
     ]
 
     $scope.selectSample = sample => {
