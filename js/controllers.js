@@ -190,17 +190,7 @@ angular.module('raw.controllers', [])
 
 
     $scope.samples = [
-      { title : 'Biggest cities per continent', type : 'Distributions', url : 'data/cities.csv'},
-      { title : 'Countries GDP', type : 'Other', url : 'data/inputdata.txt'},
       { title : 'Galaxy Dataset', type : 'Other', url : 'data/inputdata.txt'},
-      { title : 'Cars', type : 'Multivariate', url : 'data/multivariate.csv' },
-      { title : 'Movies', type : 'Dispersions', url : 'data/dispersions.csv' },
-      { title : 'Music industry', type: 'Time Series', url : 'data/music.csv' },
-      { title : 'Lineup', type : 'Time chunks', url : 'data/lineup.tsv' },
-      { title : 'Orchestras', type : 'Hierarchies (weighted)', url : 'data/orchestra.csv' },
-      { title : 'Animal kingdom', type: 'Hierarchies', url : 'data/animals.tsv' },
-      { title : 'Titanic\'s passengers', type : 'Multi categorical', url : 'data/titanic.tsv' },
-      { title : 'Most frequent letters', type: 'Matrix (narrow)', url:'data/letters.tsv'}
     ]
 
 
